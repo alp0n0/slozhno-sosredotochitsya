@@ -133,7 +133,6 @@ button:focus-visible {
 }
 
 .content-section {
-  background-color: var(--bg-color);
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -201,7 +200,6 @@ button:focus-visible {
 }
 
 .footer {
-  background-color: var(--bg-color);
   display: grid;
   position: relative;
   padding: 10px;
