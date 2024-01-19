@@ -13,6 +13,7 @@ button:focus-visible {
 
 .page {
   background-image: var(--bg-image);
+  background-color: var(--bg-color);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
