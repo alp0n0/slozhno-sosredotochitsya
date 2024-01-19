@@ -1,5 +1,6 @@
-:root .theme_light{
+:root .theme_light {
   --bg-color: #FFF1F7;
+  --text-color: #353430;
   --header-color: #FFC2E6;
   --main-color: #353430;
   --text-font: 'IBM Plex Mono';
@@ -18,15 +19,17 @@
 
 .page.theme_light .decorated-zone__name span {
   display: none;
+}
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
+
 
 @media (prefers-color-scheme: light) {
-  :root .theme_light{
+  :root .theme_light {
     --bg-color: #FFF1F7;
+    --text-color: #353430;
     --header-color: #FFC2E6;
     --main-color: #353430;
     --text-font: 'IBM Plex Mono';
@@ -34,6 +37,6 @@
     --block-decor-color: #FF8DCB;
     --title-color: #353430;
     --border-hover-color: 1px solid rgba(255, 0, 112, 0.40);
-    --bg-image: url(../images/cover-image-light.png);   
+    --bg-image: url(../images/cover-image-light.png);
   }  
 }

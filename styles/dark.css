@@ -1,5 +1,6 @@
-:root .theme-dark{
+:root .theme-dark {
   --bg-color: #000028;
+  --text-color: #000028;
   --header-color: #DB00FF;
   --main-color: #F1B2CE;
   --text-font: 'IBM Plex Mono';
