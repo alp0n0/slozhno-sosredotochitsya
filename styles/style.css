@@ -18,7 +18,7 @@ button:focus-visible {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* -сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
 .header {
