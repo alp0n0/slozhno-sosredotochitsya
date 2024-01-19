@@ -201,6 +201,7 @@ button:focus-visible {
 }
 
 .footer {
+  background-color: var(--bg-color);
   display: grid;
   position: relative;
   padding: 10px;
