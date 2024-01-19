@@ -207,6 +207,7 @@ button:focus-visible {
   padding: 10px;
   min-height: 668px;
   height: 100vh;
+  z-index: -1;
 }
 
 .footer__title {
